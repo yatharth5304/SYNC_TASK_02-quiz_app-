@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="quiz">
+    <h1>Quiz App</h1>
+    <form id="quiz-form">
+      <div class="question">
+        <h2>Question 1:</h2>
+        <p>What is the capital of France?</p>
+        <label><input type="radio" name="q1" value="a">a) London</label>
+        <label><input type="radio" name="q1" value="b">b) Paris</label>
+        <label><input type="radio" name="q1" value="c">c) Berlin</label>
+      </div>
+      <div class="question">
+        <h2>Question 2:</h2>
+        <p>What is the largest planet in our solar system?</p>
+        <label><input type="radio" name="q2" value="a">a) Earth</label>
+        <label><input type="radio" name="q2" value="b">b) Jupiter</label>
+        <label><input type="radio" name="q2" value="c">c) Saturn</label>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
